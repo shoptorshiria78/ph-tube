@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog Of PH TUBE</title>
+</head>
+<nav>
+    <div class="flex justify-center items-center ">
+        <div>
+             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+            <g clip-path="url(#clip0_13_1170)">
+              <path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="#FF6B6B"/>
+              <path d="M32 16H0C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16Z" fill="#FF1F3D"/>
+              <path d="M11.6249 25.0625C11.4791 25.0625 11.3329 25.0286 11.1982 24.9597C10.8847 24.7994 10.6875 24.4771 10.6875 24.125V7.875C10.6875 7.52294 10.8848 7.20056 11.1982 7.04031C11.5116 6.88006 11.8884 6.90888 12.1739 7.115L23.4239 15.24C23.6679 15.4163 23.8125 15.699 23.8125 16C23.8125 16.301 23.6679 16.5838 23.4239 16.76L12.1739 24.885C12.0111 25.0026 11.8185 25.0625 11.6249 25.0625Z" fill="#F9F9F9"/>
+              <path d="M10.6875 16V24.125C10.6875 24.4771 10.8848 24.7994 11.1982 24.9597C11.3328 25.0286 11.4791 25.0625 11.6249 25.0625C11.8184 25.0625 12.0111 25.0026 12.1739 24.885L23.4239 16.76C23.6679 16.5838 23.8125 16.301 23.8125 16H10.6875Z" fill="#E2DFF4"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_13_1170">
+                <rect width="32" height="32" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+          <div>
+            <h1 class="text-xl md:text-2xl lg:text-3xl font-bold ml-2"><span class="text-[#FF1F3D]">PH</span> TUBE BLOG</h1>
+          </div>
+    </div>
+</nav>
+<body class="w-10/12 mx-auto my-10">
+    <h3 class="text-xl font-bold my-2">Discuss the scope of var, let, and const</h3>
+    <p>Ans: Var can be accessed through the whole script of a js file. That's why its' scope is called global scope. It can be used before initialization. It can be declared more than once within the same script. variable declared with var will be hoisted .<br>
+
+    let cannot be used before the initialization. Its' scope is called block scope. It can be used only with in block scope or in function scope. Outside of the block it cannot be accessed. It cannot be declared with the same value more than once. But the value of the variable declared with the let can be changed. variable declared with let are also hoisted but not initialized. let allows reassignment of value.
+
+    const also cannot be used before initialization. It also posses block scope. out side of the block or function scope it cannot be accessed. It didn't allow reassignment of value.The value within const cannot be changed. 
+    </p>
+    <h3 class="text-xl font-bold my-2">Tell us the use cases of null and undefined</h3>
+    <p> Ans: Null is a value that doesn't possess anything else. It is given deliberately when there is no value to give. On the other hand undefined is used when any data or value is not found or don't know what is the actual value is. undefined is used on unintentional behavior of data.<br>
+        there are 8 ways to get Undefined :<br>
+        1.Variable that is not initialized will give undefined. <br>
+        2.Function with no return. <br>
+        3.Parameter that is not passed will be undefined. <br>
+        4.If return has nothing on the right side will return undefined. <br>
+        5.Property that doesn't exists on object will give undefined. <br>
+        6.Accessing array elements outside of the index range will give undefined. <br>
+        7.Deleting an element inside an array will create undefined . <br>
+        8.Set a value directly to undefined.
+
+    </p>
+    <h3 class="text-xl font-bold my-2">What do you mean by REST API?</h3>
+    <p> Ans: The full form of REST API is Representational State Transfer Application Programming Interface. Those are some set of rules that ensure how the data should passes through internet from web page to server. Those are not any kind of protocol, they are simply designed for proper functioning of webs services.</p>
+</body>
+</html>
