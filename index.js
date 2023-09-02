@@ -20,11 +20,10 @@ const displayCategory = (categories) => {
     })
 
 }
-
 const cardLoad = async ( categoryId) => {
     const res = await fetch(`https://openapi.programming-hero.com/api/videos/category/${categoryId}`);
     const data = await res.json();
-    sortData = data.data;  
+    var sortData = data.data;  
     sortData.sort(function(a,b)
     {     
         return parseInt(b.others.views) - parseInt(a.others.views); 
